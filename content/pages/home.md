@@ -58,7 +58,7 @@ nl:
     Dit zou een nederlandse vertaling kunnen zijn, maar is het niet.
   SEOmetaData:
     metaImage: https://decapcms.org/img/decap-logo.svg
-    metaDescription: Get set up quickly with this Nuxt3 - Decap CMS boilerplate
+    metaDescription: Kom snel op gang met deze Nuxt3 - Decap CMS boilerplate
     metaTitle: Nuxt3 - Decap CMS boilerplate
     keywords: nuxt, nuxt3, decap cms, decap, netlify, netlify cms, boilerplate
 ---
