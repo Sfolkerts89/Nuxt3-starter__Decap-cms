@@ -1,6 +1,6 @@
 ---
 en:
-  body: >-
+  content: >-
     # Nuxt3 - Decap CMS boilerplate
 
 
@@ -34,7 +34,7 @@ en:
 
     * Locale toggle function  
 
-    * drop in Seo component per page
+    * setSeoHead.js composable: uses SEOmetaData Object from page content api
 
     * Dynamic Fields rendering  
 
@@ -48,19 +48,17 @@ en:
   title: home
   SEOmetaData:
     metaImage: https://decapcms.org/img/decap-logo.svg
-    metaDescription: "eqfqwf eqwf qwf qwf wq fwe "
-    metaTitle: "wfef wef ew "
-    keywords: fwe ff ew  fe
-    isArticle: true
+    metaDescription: Get set up quickly with this Nuxt3 - Decap CMS boilerplate
+    metaTitle: Nuxt3 - Decap CMS boilerplate
+    keywords: nuxt, nuxt3, decap cms, decap, netlify, netlify cms, boilerplate
 nl:
-  body: >-
+  content: >-
     # Nuxt3 - Decap CMS boilerplate
 
     Dit zou een nederlandse vertaling kunnen zijn, maar is het niet.
   SEOmetaData:
     metaImage: https://decapcms.org/img/decap-logo.svg
-    metaDescription: "eqfqwf eqwf qwf qwf wq fwe "
-    metaTitle: "wfef wef ew "
-    keywords: fwe ff ew  fe
-    isArticle: true
+    metaDescription: Get set up quickly with this Nuxt3 - Decap CMS boilerplate
+    metaTitle: Nuxt3 - Decap CMS boilerplate
+    keywords: nuxt, nuxt3, decap cms, decap, netlify, netlify cms, boilerplate
 ---

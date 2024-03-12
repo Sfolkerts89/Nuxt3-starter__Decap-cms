@@ -56,7 +56,7 @@ en:
     metaTitle: Dynamic Fields
     metaDescription: These are an example of dynamic fields in Decap CMS
     metaImage: /cld-sample.jpg
-    keywords: Nuxt, Decap, CMS
+    keywords: Nuxt, Decap, CMS, page building, dynamic fields
 nl:
   title: Dynamic Fields
   sections:
@@ -111,5 +111,5 @@ nl:
     metaTitle: Dynamic Fields
     metaDescription: Dit is een voorbeeld van dynamic fields in Decap CMS
     metaImage: /cld-sample.jpg
-    keywords: Nuxt, Decap, CMS
+    keywords: Nuxt, Decap, CMS, page building, dynamic fields
 ---

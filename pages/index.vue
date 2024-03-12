@@ -8,8 +8,7 @@
 				<img src="/images/header/decap-logo.svg" alt="logo" width="200" height="100" />
 			</NuxtLink>
 		</div>
-		<PagesMarkdownRenderMarkdown :markdownString="home.body" />
-		<!-- <SeoHead v-if="home.SEOmetaData" :seo="home.SEOmetaData" /> -->
+		<PagesMarkdownRenderMarkdown :markdownString="home.content" />
 	</main>
 
 </template>
@@ -24,6 +23,8 @@ const { data: homeData } = reactive(await useAsyncData("home", () =>
 const home = computed(() => {
 	return homeData[setLocale.value]
 })
+
+setSeoHead(home.value.SEOmetaData);
 </script>
 
 <style lang="scss" scoped>

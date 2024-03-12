@@ -1,7 +1,7 @@
 ---
 en:
   title: Style your typography quickly
-  body: >-
+  content: >-
     # h1
 
 
@@ -37,7 +37,7 @@ en:
 
     * list
 nl:
-  body: >-
+  content: >-
     # h1 
 
 

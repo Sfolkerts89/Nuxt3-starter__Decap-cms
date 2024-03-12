@@ -4,7 +4,7 @@
 		class="typography"
 	>	
 		<span>{{ typography.title }}</span>
-		<PagesMarkdownRenderMarkdown :markdownString="typography.body" />
+		<PagesMarkdownRenderMarkdown :markdownString="typography.content" />
 	</main>
 </template>
 

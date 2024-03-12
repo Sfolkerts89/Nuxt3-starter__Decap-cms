@@ -14,9 +14,10 @@ const { data: dynamicFieldsData } = reactive(await useAsyncData("dynamic-fields"
 );
 
 const dynamicFields = computed(() => {
-	// itterates through the locale
 	return dynamicFieldsData[setLocale.value]
 })
+
+setSeoHead(dynamicFields.value.SEOmetaData);
 
 </script>
 
