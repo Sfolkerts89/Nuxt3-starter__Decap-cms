@@ -89,7 +89,6 @@ fieldset {
         }
 		&::placeholder {
 			color: $form-placeholder-color;
-            opacity: 0;
 		}
         &:focus {
 			outline: $form-border-thickness solid $form-focus-color;
