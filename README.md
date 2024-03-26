@@ -57,9 +57,10 @@ This boilerplate will get you going quick in building with Nuxt and Decap CMS. T
 4. Run frontend locally: `yarn dev` or `npm run dev`
 
 3. Boot up Decap CMS locally:
-  * uncomment `locale_backend: true` (*leave this out in production for safety's sake*)
-  * run `npx decap-server`
-  * Navigate to: localhost:3000/admin (asuming you have a frontend instance running)
+
+* uncomment `locale_backend: true` (*leave this out in production for safety's sake*)
+* run `npx decap-server`
+* Navigate to: localhost:3000/admin (asuming you have a frontend instance running)
 
 ## Netlify deployment
   * Build command: `npm run generate` (dont use YARN: Node will run out of memory)
