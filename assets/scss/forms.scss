@@ -19,9 +19,8 @@ textarea {
 $form-background-color: transparent;
 $form-field-background-color: $light-grey;
 $form-dark-grey: #333;
-$form-base-color: $orange;
-$form-border-color: $black;
-$form-border-thickness: 0.2em;
+$form-base-color: $secondary-color;
+$form-border-color: transparent;
 $form-text-color: $black;
 $form-placeholder-color: $grey;
 $form-error-color: $red;
@@ -90,16 +89,12 @@ fieldset {
         }
 		&::placeholder {
 			color: $form-placeholder-color;
-
+            opacity: 0;
 		}
         &:focus {
 			outline: $form-border-thickness solid $form-focus-color;
-        }
-    }
-    input, textarea {
-        outline: $form-border-thickness solid $form-border-color;
-        outline: none;
-		&:focus:valid {
+        }        
+		&:focus:valid, &:valid {
 			outline: $form-border-thickness solid $form-valid-color;
 		}
         &:not(:focus):invalid {
@@ -122,7 +117,7 @@ fieldset {
     textarea {
         resize: vertical;
         overflow: auto;
-        outline: $form-border-thickness solid $form-border-color;
+        outline: 1px solid $form-border-color;
         margin: 0;
     }
 }
