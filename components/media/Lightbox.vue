@@ -25,8 +25,8 @@ const props = defineProps(["images", "color"]);
 
 const rtc = useRuntimeConfig();
 const cEnv = rtc.public.cloudinaryEnvUrl;
-const imageUrlBaseSmall = cEnv + "/image/upload/f_auto,c_scale,w_600,q_auto:best/";
-const imageUrlBaseLarge = cEnv + "/image/upload/f_auto,c_scale,w_1920,q_auto:best/";
+const imageUrlBaseSmall = cEnv + "/image/upload/c_scale,w_600,q_auto:best/";
+const imageUrlBaseLarge = cEnv + "/image/upload/c_scale,w_1920,q_auto:best/";
 
 // colors from SCSS
 import variables from '~/assets/scss/variables.module.scss';
