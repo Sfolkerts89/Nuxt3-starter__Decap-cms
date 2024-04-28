@@ -40,7 +40,7 @@ const props = defineProps(["imageOnly", "slides", "timed", "hasEnlarge", "color"
 // build url base
 const rtc = useRuntimeConfig();
 const cEnv = rtc.public.cloudinaryEnvUrl;
-const imageUrlBase = cEnv + "/image/upload/f_auto,c_scale,w_1920,q_auto:best/";
+const imageUrlBase = cEnv + "/image/upload/c_scale,w_1920,q_auto:best/";
 
 // colors from SCSS
 import variables from '~/assets/scss/variables.module.scss';
