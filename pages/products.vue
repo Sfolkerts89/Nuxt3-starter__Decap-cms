@@ -36,6 +36,17 @@ const moreBtn = useBtnData('article');
 </script>
 
 <style lang="scss" scoped>
+
+main {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+
+	div {
+		max-width: 500px;
+	}
+}
+
 .product-card {
 	color: $white;
 	text-shadow: 0 0 0.2em $black;
