@@ -42,7 +42,7 @@ export default defineNuxtConfig({
 			},
 		},
 	},
-	// experimental: {
-	// 	componentIslands: true,
-	// },
+	experimental: {
+		componentIslands: true,
+	},
 });
