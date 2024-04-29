@@ -45,7 +45,7 @@ onMounted(() => {
 
 // Build absolute url
 const imageUrl = computed(() => {
-	return cEnv + "/image/upload/c_scale," + respSize.value + ",q_auto:best" + props.url;
+	return cEnv + "/image/upload/f_auto,c_scale," + respSize.value + ",q_auto:best" + props.url;
 })
 
 // set object fit in css
