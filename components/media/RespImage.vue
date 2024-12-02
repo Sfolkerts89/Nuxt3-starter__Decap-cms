@@ -42,7 +42,7 @@ onMounted(() => {
 
 // Build absolute url
 const imageUrl = computed(() => {
-	return cldDelivery(props.url, 'f_auto,c_scale,' + respSize.value)
+	return cldDelivery(props.url, respSize.value)
 })
 
 // set object fit in css
